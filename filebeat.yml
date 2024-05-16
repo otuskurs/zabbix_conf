@@ -55,7 +55,7 @@ filebeat.inputs:
   #  review: 1
 - type: filestream
   paths:
-    - /var/log/nginx/*
+    - /var/log/apache2/* 
 
   enabled: true
   exclude_files: ['.gz$']
